@@ -1,0 +1,73 @@
+
+.UI_body{
+display: flex;
+/* flex-direction: column; */
+/* justify-content: center; */
+/* align-items: center; */
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    width: 30%;
+}
+
+.cardContainer{
+    margin: 4rem 0 ;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.cardHeader{
+    background-color: rgb(24, 5, 5);
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.cardBody{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info{
+    padding: .7rem 1rem;
+    background-color: rgb(203, 190, 190);
+    margin: 10px 0;
+
+}
+
+.deleteButton{
+    background-color: rgb(98, 23, 23);
+     width: 100%;
+     padding: .6rem;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    background-color: crimson;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+   .container{
+    width: 90%;
+   }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        width: 60%;
+    }
+}
+
