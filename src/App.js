@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import UI_part from "./UI_part";
+import React from "react";
+import UI from "./UI/UI";
 
 function App() {
   return (
     <div>
-      <UI_part />
+      <UI />
     </div>
   );
 }
